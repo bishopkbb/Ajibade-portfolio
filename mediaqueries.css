@@ -1,0 +1,260 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  #hamburger-nav .logo {
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: auto;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-container {
+    order: 3; 
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  .about-details-container,
+  .section__pic-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .details-container {
+    margin-bottom: 1rem;
+  }
+
+   #about .about-row,
+  .section-container,
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__pic-container {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .about-pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .details-container,
+  .text-container {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+   #profile .section__pick-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  #profile .profile-pic {
+    width: 300px;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+
+   .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 1.5rem; 
+  }
+
+  .about-pic,
+  .details-container,
+  .text-container {
+    width: 100%;
+  }
+
+  .about-row {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .section__pic-container,
+  .about-details-container {
+    width: 100%; 
+  }
+
+  .about-pic {
+    width: 100%;  
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+  }
+
+  .text-container {
+    text-align: center;
+  }
+
+   #about .about-row,
+  .section-container,
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__pic-container {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .about-pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .details-container,
+  .text-container {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+   #profile .section__pick-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  #profile .profile-pic {
+    width: 300px;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+  }
+
+
+}
