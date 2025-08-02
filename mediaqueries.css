@@ -121,6 +121,9 @@
     display: block;
   }
 
+   .arrow-wrapper {
+    display: none;
+  }
  
 }
 
@@ -256,5 +259,8 @@
     display: block;
   }
 
+   .arrow-wrapper {
+    display: none;
+  }
 
 }
