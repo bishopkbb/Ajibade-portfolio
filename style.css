@@ -475,6 +475,40 @@ article .icon {
   
 }
 
+/* Project card hover effect */
+.details-container.color-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.details-container.color-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(212, 175, 55, 0.4); /* gold glow */
+  border: 1px solid #D4AF37;
+}
+
+/* Zoom image on hover */
+.details-container:hover .project-img {
+  transform: scale(1.05);
+}
+
+.project-img {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+/* Button hover */
+.project-btn a {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-btn a:hover {
+  background-color: #D4AF37;
+  color: #000;
+  border-radius: 5px;
+}
+
+
 
 
 /* CONTACT */
